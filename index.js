@@ -33,5 +33,4 @@ app.use('/api/user', authRouter);
 app.use('/api/paciente', pacienteRouter);
 app.use('/api/prontuario', prontuarioRouter);
 
-const port = 5000;
-app.listen(port, () => console.log(`Running on port ${port}`));
+app.listen(process.env.PORT || 5000);
