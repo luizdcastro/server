@@ -4,7 +4,7 @@
   "description": "Robo Laura web developer task",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "npm index.js"
   },
   "author": "Luiz Castro",
   "license": "ISC",
